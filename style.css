@@ -1,0 +1,70 @@
+body {
+    background-color: greenyellow;
+}
+
+h1 {
+    font-family: fantasy;
+    background-color: beige;
+    color: rgb(95, 19, 102);
+    border-width: 6px;
+    border-style: groove;
+}
+
+#show_sketch {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(254, 254, 255);
+    background-color: blue;
+    font-weight: bolder;
+    float: right;
+    margin-right: 50px;
+    border-width: 5px;
+    border-style: double;
+}
+
+#score {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+#timer {
+    float: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 75px;
+    font-weight: 600;
+}
+
+#your_sketch,
+#confidence,
+#sketch_to_be_drawn {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+#sketch_to_be_drawn {
+    color: rgb(255, 0, 0);
+}
+
+canvas {
+    border-radius: 10px;
+    animation-name: test;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test {
+    from {
+        box-shadow: 1px 1px 38px rgb(185, 174, 14);
+    }
+
+    to {
+        box-shadow: 1px 1px 38px rgb(243, 243, 175);
+    }
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
